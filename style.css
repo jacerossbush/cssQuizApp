@@ -14,18 +14,18 @@ ul {
   padding: 0 1rem;
 }
 ul li {
-  background-color: green;
+  background-color: lightgray;
   margin: 0.25rem 0;
   padding: 1rem;
 }
 button {
-  background-color: brown;
+  background-color: lightgreen;
   border: none;
   padding: 0.75rem 1.5rem;
   color: white;
 }
 .container {
   width: 100%;
-  background-color: blue;
+  background-color: white;
   padding: 1rem;
 }

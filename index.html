@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="quiz-container">
         <h1>CSS Quiz</h1> <!--static-->
-        <h3>Question 1 of 25:</h3><!--Dynamic-->
-        <h4>what does th fox say</h4>    <!--Dynamic-->
+        <h3 id="question-counter"></h3><!--Dynamic-->
+        <h4 id="question"></h4>    <!--Dynamic-->
         <div class="answer-container">
             <ul>
                 <li>
                     <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id=a_text">a</label>
+                    <label for="a" id="a_text">a</label>
                 </li>
                 <li>
                     <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id=b_text">b</label>
+                    <label for="b" id="b_text">b</label>
                 </li>
                 <li>
                     <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id=c_text">c</label>
+                    <label for="c" id="c_text">c</label>
                 </li>
                 <li>
                     <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id=d_text">d</label>
+                    <label for="d" id="d_text">d</label>
                 </li>
             </ul>
         </div>
-        <button>Next &#62;</button>
+        <button id="submit">Next &#62;</button>
     </div>
     
 
